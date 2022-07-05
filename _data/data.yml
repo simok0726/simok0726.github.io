@@ -3,192 +3,185 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Simok Lee
+    tagline: Integrated Ph.D. Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: sujak6970@kaist.ac.kr
+    phone: 000-0000-0000
+#    timezone: America/Cancun Timezone
+#    citizenship:
+    website: simok0726.github.io #do not add http://
+#    linkedin: alandoe
+#    xing: alandoe
+#    github: sharu725
+#    telegram: # add your nickname without '@' sign
+#    gitlab:
+#    bitbucket:
+#    twitter: '@webjeda'
+#    stack-overflow: # Number/Username, e.g. 123456/alandoe
+#    codewars:
+#    goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Korean
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Swimming
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Pilates
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an integrated Ph.D. student in <a href="https://www.jeongresearch.org/"><u>Bio-Integrated Electronics and Systems
+      Lab (BIESL)</u></a> in <a href="https://kaist.ac.kr/"><u>KAIST</u></a>.
+      I am currently advised by Prof. <a href="https://www.jeongresearch.org/current/"><u>Jae-Woong Jeong</u></a>.
+      My research interest lies in developing e-skins and human-like sensors using gallium microgranules.
+
+      I received my B.S. in Chemical and Biomolecular Engieering with minor in Electrical Engineering from KAIST in 2021.
+      I spent a year pursuing M.S. in Electrical Engineering until I enrolled in Integrated Ph.D. in 2022.
+      In 2020, I worked as an intern in <a href="https://www.samsungsem.com/kr/index.do"><u>Samsung Electro-Mechanics</u></a>,
+      where I did blah blah.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - degree: Integrated Ph.D. in <a href="https://ee.kaist.ac.kr/">Electrical Engineering</a>
+      university: <a href="https://kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>
+      time: 2022.03 - present
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - degree: M.S. in <a href="https://ee.kaist.ac.kr/">Electrical Engineering</a>
+      university: <a href="https://kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>
+      time: 2021.03 - 2022.02
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - degree: B.S. in <a href="https://cbe.kaist.ac.kr/">Chemical and Biomolecular Engineering</a>
+      university: with Minor in <a href="https://ee.kaist.ac.kr/">Electrical Engieering</a><br><a href="https://kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>
+      time: 2016.03 - 2021.02
+      details: Minor in Electrical Engineering
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - degree: Exchange student
+      university: <a href="https://www.tu-darmstadt.de/index.en.jsp">The Technical University of Darmstadt</a>
+      time: 2020.03 - 2020.08
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#    intro: |
+#      Journal Publications
+    journal_heading:
+      Journal Publications
+    journal_papers:
+      - title: Design Strategy for Transformative Electronic System toward Rapid, Bidirectional Stiffness Tuning using Graphene and Flexible Thermoelectric Device Interfaces
+        link: "https://static1.squarespace.com/static/59d1e07303596e6dea3235d2/t/60598575b46c8e047d55d23a/1616479660828/37.+TES+with+graphene+and+f-TED+-+AM2021.pdf"
+        authors: Sang-Hyuk Byun, Choong Sun Kim, Karen-Christian Agno, <strong>Simok Lee</strong>, Zhuo Li, Byung Jin Cho, and Jae-Woong Jeong
+        conference: <p><strong><i>Advanced Materials</i></strong> 33, (2007239) 2021.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    conference_heading:
+      Conference Publications
+    conference_papers:
+      - title: GA Tech paper
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: <strong>Simok Lee</strong>
+        conference: <p><strong><i>GA Tech</i></strong>, 2022.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+
+honors:
+  - role: Excellent Award (2nd place) in URP
+    time: 2021.02
+    company: Korea Advanced Institute of Science and Technology (KAIST)
+    details: |
+      Received 2nd place award in the Undergraduate Research Program (URP) held in KAIST.
+
+  - role: <i>Cum Laude</i>
+    time: 2021.02
+    company: Korea Advanced Institute of Science and Technology (KAIST)
+    details: |
+      Graduated from the Department of Chemical and Biomolecular Engineering, KAIST with <i>Cum Laude</i>.
+
+
+teaching:
+  - class: <b>EE405 Electronics Design Lab</b>
+    time: Spring 2022
+  - class: <b>EE405 Electronics Design Lab</b>
+    time: Fall 2021
+
+
+experiences:
+    - role: Undergraduate Researcher/URP
+      time: 2020.03 - 2021.02
+      company: <a href="https://www.jeongresearch.org/"><i>Bio-Integrated Electronics and Systems
+        Lab (BIESL)</i></a>
+      details: |
+        What did I do in BIESL?
+
+        <i>Advisor: Prof. <a href="https://www.jeongresearch.org/current/"><u>Jae-Woong Jeong</u></a></i>
+
+    - role: Intern
+      time: 2020.01 - 2020.02
+      company: <a href="https://www.samsungsem.com/kr/index.do"><i>Samsung Electro-Mechanics</i></a>
+      details: |
+        What did I do in Samsung Electro-Mechanics?
+
+    - role: Undergraduate Researcher
+      time: 2018(?)
+      company: <a href="http://bmm.kaist.ac.kr/"><i>Brain/bio Medical Microsystems Lab (BMM)</i></a>
+      details: |
+        What did I do in BMM?
+
+        <i>Advisor: Prof. <a href="http://bmm.kaist.ac.kr/bbs/board.php?bo_table=sub1_1"><u>Hyunjoo Lee</u></a></i>
+
+    - role: Undergraduate Researcher
+      time: 2018(?)
+      company: <a href="http://mbel.kaist.ac.kr/"><i>Metabiolic Engineering & Synthetic Biology Lab (MBEL)</i></a>
+      details: |
+        What did I do in MBEL?
+
+        <i>Advisor: Prof. <a href="http://mbel.kaist.ac.kr/lab/index_ko.html"><u>Sang Yup Lee</u></a></i>
+
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Python, Arduino
+#        level: 98%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

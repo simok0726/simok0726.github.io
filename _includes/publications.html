@@ -16,17 +16,39 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for publication in publications.papers %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
+  <div class="journal_publications">
+    <h5 class="j-type">{{ publications.journal_heading }}</h5>
+
+    {% for jp in publications.journal_papers %}
+    <div class="item">
+      {% if jp.link %}
+        <li><a style="font-size: 14px; font-weight: bold; color: #00008b" href="{{ jp.link }}">{{ jp.title }}</a></li>
+      {% else %}
+        <li style="font-size: 14px; font-weight: bold">{{ jp.title }}</li>
+      {% endif %}
+      <div class="jp-authors">{{ jp.authors }}</div>
+      <div class="jp-conference">{{ jp.conference }}</div>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+
+  <br>
+
+  <div class="conference_publications">
+    <h5 class="c-type">{{ publications.conference_heading }}</h5>
+
+    {% for cp in publications.conference_papers %}
+    <div class="item">
+      {% if cp.link %}
+        <li><a style="font-size: 14px; font-weight: bold; color: #00008b" href="{{ cp.link }}">{{ cp.title }}</a></li>
+      {% else %}
+        <li style="font-size: 14px; font-weight: bold">{{ cp.title }}</li>
+      {% endif %}
+      <div class="cp-authors">{{ cp.authors }}</div>
+      <div class="cp-conference">{{ cp.conference }}</div>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
 
 </section><!--//section-->
 {% endif %}

@@ -177,6 +177,35 @@ p {
   }
 
   .experiences-section,
+  .experiences-section {
+    .item {
+      margin-bottom: 30px;
+    }
+  }
+  .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+  }
+  .degree {
+    color: $text-color;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $text-grey;
+  }
+  .company,
+  .university {
+    margin-bottom: 10px;
+    color: $text-grey;
+  }
+
   .educations-section {
     .item {
       margin-bottom: 30px;
@@ -187,7 +216,36 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
   }
-  .job-title,
+  .degree {
+    color: $text-color;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $text-grey;
+  }
+  .company,
+  .university {
+    margin-bottom: 10px;
+    color: $text-grey;
+  }
+
+  .honors-section,
+  .honors-section {
+    .item {
+      margin-bottom: 30px;
+    }
+  }
+  .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+  }
   .degree {
     color: $text-color;
     font-size: 16px;
@@ -223,16 +281,29 @@ p {
     }
   }
 
-  .publication-title {
+  .jp-title {
     font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color: #0000ff;
+  }
+  .jp-authors {
     margin-bottom: 1px;
   }
-  .publication-authors {
-    font-style: italic;
-    color: $text-grey;
+  .jp-conference {
+    font-size: 14px;
+  }
+  .cp-title {
+    font-size: 16px;
+    font-weight: bold;
     margin-bottom: 1px;
+    color: #0000ff;
+  }
+  .cp-authors {
+    margin-bottom: 1px;
+  }
+  .cp-conference {
+    font-size: 14px;
   }
   .publications-section {
     .intro {
