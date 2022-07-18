@@ -1,6 +1,8 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+head:
+    title: Simok Lee
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -8,7 +10,7 @@ sidebar:
 
     # Profile information
     name: Simok Lee
-    tagline: Integrated Ph.D. Student
+    tagline: Ph.D. Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -47,15 +49,16 @@ career-profile:
     title: Career Profile
     summary: |
       Hello, I am Simok Lee.
-      I am an integrated Ph.D. student in <a href="https://www.jeongresearch.org/"><u>Bio-Integrated Electronics and Systems
+      I am a Ph.D. student in <a href="https://www.jeongresearch.org/"><u>Bio-Integrated Electronics and Systems
       Lab (BIESL)</u></a> in <a href="https://kaist.ac.kr/"><u>KAIST</u></a>.
       I am currently advised by Prof. <a href="https://www.jeongresearch.org/current/"><u>Jae-Woong Jeong</u></a>.
-      My research interest lies in developing e-skins and human-like sensors using gallium microgranules.
+      My research interest lies in developing human-like electronic skins that are soft, flexible, and stretchable using gallium microgranules.
+      I design and apply these skins on non-human objects including robotic skins for diverse applications in robotics and human health monitoring.
 
       I received my B.S. in Chemical and Biomolecular Engieering with minor in Electrical Engineering from KAIST in 2021.
-      I spent a year pursuing M.S. in Electrical Engineering until I enrolled in Integrated Ph.D. in 2022.
-      In 2020, I worked as an intern in <a href="https://www.samsungsem.com/kr/index.do"><u>Samsung Electro-Mechanics</u></a>,
-      where I did blah blah.
+      I spent a year pursuing M.S. in Electrical Engineering until I enrolled in the Integrated Ph.D. program in 2022.
+#      In 2020, I worked as an intern in <a href="https://www.samsungsem.com/kr/index.do"><u>Samsung Electro-Mechanics</u></a>,
+#      where I did blah blah.
 
 education:
     - degree: Integrated Ph.D. Candidate in <a href="https://ee.kaist.ac.kr/">Electrical Engineering</a>
@@ -77,10 +80,18 @@ publications:
     journal_heading:
       Journal Publications
     journal_papers:
+      - title: "Beyond the Human Skin: Adaptive Robotic Skin based on Microgranular Gallium for Pressure Sensory Augmentation"
+#        link: "#"
+        authors: <strong>Simok Lee</strong>*, Sang-Hyuk Byun*, and Jae-Woong Jeong
+        footnote: "* equal contributions"
+        venue: Under review
+        figure: coming_crop.png
+
       - title: Design Strategy for Transformative Electronic System toward Rapid, Bidirectional Stiffness Tuning using Graphene and Flexible Thermoelectric Device Interfaces
         link: "https://static1.squarespace.com/static/59d1e07303596e6dea3235d2/t/60598575b46c8e047d55d23a/1616479660828/37.+TES+with+graphene+and+f-TED+-+AM2021.pdf"
         authors: Sang-Hyuk Byun, Choong Sun Kim, Karen-Christian Agno, <strong>Simok Lee</strong>, Zhuo Li, Byung Jin Cho, and Jae-Woong Jeong
-        conference: <strong><i>Advanced Materials</i></strong> 33, (2007239) 2021.
+        venue: <strong><i>Advanced Materials</i></strong> 33, (2007239) 2021.
+        figure: design.png
 
     conference_heading:
       Conference Publications
@@ -88,7 +99,8 @@ publications:
       - title: GA Tech paper
         link: "#"
         authors: <strong>Simok Lee</strong>
-        conference: <strong><i>GA Tech</i></strong>, 2022.
+        venue: <strong><i>GA Tech</i></strong>, 2022.
+        figure: coming_crop.png
 
 
 honors:

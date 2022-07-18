@@ -33,6 +33,12 @@ p {
   line-height: 1.5;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -232,36 +238,29 @@ p {
     }
   }
 
-  .jp-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 1px;
-    color: #0000ff;
-  }
-  .jp-authors {
-    margin-bottom: 1px;
-  }
-  .jp-conference {
-    font-size: 14px;
-  }
-  .cp-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 1px;
-    color: #0000ff;
-  }
-  .cp-authors {
-    margin-bottom: 1px;
-  }
-  .cp-conference {
-    font-size: 14px;
-  }
+
+
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
     .item {
       margin-bottom: 15px;
+    }
+    .figure {
+      max-width: 100%;
+      object-fit: contain
+    }
+    .title {
+      font-weight: bold;
+      color: #00008b
+    }
+    .venue {
+      font-weight: bold
+    }
+    .footnote {
+      font-style: italic;
+      font-size: 14px;
     }
   }
 }

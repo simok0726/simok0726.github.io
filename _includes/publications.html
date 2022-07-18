@@ -25,13 +25,30 @@
     </div>
     {% for jp in publications.journal_papers %}
     <div class="item">
-      {% if jp.link %}
-        <li><a style="font-weight: bold; color: #00008b" href="{{ jp.link }}">{{ jp.title }}</a></li>
-      {% else %}
-        <li style="font-weight: bold">{{ jp.title }}</li>
-      {% endif %}
-      <div class="jp-authors">{{ jp.authors }}</div>
-      <div class="jp-conference" style="font-size: 16px">{{ jp.conference }}</div>
+      <ul><li>
+        <div class="description">
+          {% if jp.link %}
+            <p class="title"><a href="{{ jp.link }}">{{ jp.title }}</a></p>
+          {% else %}
+            <p class="title">{{ jp.title }}</p>
+          {% endif %}
+          <p class="authors">{{ jp.authors }}</p>
+          {% if jp.footnote %}
+            <p class="footnote">{{ jp.footnote }}</p>
+          {% endif %}
+          <p class="venue">{{ jp.venue }}</p>
+        </div>
+        <div class="figure">
+          <img src="{{ site.baseurl }}/assets/images/{{ jp.figure }}" class="figure" alt>
+        </div>
+<!--        {% if jp.link %}-->
+<!--          <li><a style="font-weight: bold; color: #00008b" href="{{ jp.link }}">{{ jp.title }}</a></li>-->
+<!--        {% else %}-->
+<!--          <li style="font-weight: bold">{{ jp.title }}</li>-->
+<!--        {% endif %}-->
+<!--        <div class="jp-authors">{{ jp.authors }}</div>-->
+<!--        <div class="jp-conference" style="font-size: 16px">{{ jp.conference }}</div>-->
+      </li></ul>
     </div><!--//item-->
     <br>
     {% endfor %}
@@ -47,13 +64,30 @@
     </div>
     {% for cp in publications.conference_papers %}
     <div class="item">
-      {% if cp.link %}
-        <li><a style="font-weight: bold; color: #00008b" href="{{ cp.link }}">{{ cp.title }}</a></li>
-      {% else %}
-        <li style="font-weight: bold">{{ cp.title }}</li>
-      {% endif %}
-      <div class="cp-authors">{{ cp.authors }}</div>
-      <div class="cp-conference" style="font-size: 16px">{{ cp.conference }}</div>
+      <ul><li>
+        <div class="description">
+          {% if cp.link %}
+            <p class="title"><a href="{{ jp.link }}">{{ cp.title }}</a></p>
+          {% else %}
+            <p class="title">{{ cp.title }}</p>
+          {% endif %}
+          <p class="authors">{{ cp.authors }}</p>
+          {% if cp.footnote %}
+            <p class="footnote">{{ cp.footnote }}</p>
+          {% endif %}
+          <p class="venue">{{ cp.venue }}</p>
+        </div>
+        <div class="figure">
+          <img src="{{ site.baseurl }}/assets/images/{{ cp.figure }}" class="figure" alt>
+        </div>
+<!--        {% if jp.link %}-->
+<!--          <li><a style="font-weight: bold; color: #00008b" href="{{ jp.link }}">{{ jp.title }}</a></li>-->
+<!--        {% else %}-->
+<!--          <li style="font-weight: bold">{{ jp.title }}</li>-->
+<!--        {% endif %}-->
+<!--        <div class="jp-authors">{{ jp.authors }}</div>-->
+<!--        <div class="jp-conference" style="font-size: 16px">{{ jp.conference }}</div>-->
+      </li></ul>
     </div><!--//item-->
     <br>
     {% endfor %}
