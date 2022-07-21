@@ -80,7 +80,7 @@ publications:
     journal_heading:
       Journal Publications
     journal_papers:
-      - title: "Beyond the Human Skin: Adaptive Robotic Skin based on Microgranular Gallium for Pressure Sensory Augmentation"
+      - title: "Beyond the Human Skin: Adaptive Robotic Skin based on Gallium Microgranules for Pressure Sensory Augmentation"
 #        link: "#"
         authors: <strong>Simok Lee</strong>*, Sang-Hyuk Byun*, and Jae-Woong Jeong
         footnote: "* equal contributions"
@@ -97,7 +97,7 @@ publications:
       Conference Publications
     conference_papers:
       - title: GA Tech paper
-        link: "#"
+#        link: "#"
         authors: <strong>Simok Lee</strong>
         venue: <strong><i>GA Tech</i></strong>, 2022.
         figure: coming_crop.png
